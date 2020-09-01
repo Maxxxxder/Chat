@@ -1,0 +1,46 @@
+.messages-wrapper {
+  border: 2px solid #f1f1f1;
+  border-radius: 2px;
+  padding: 20px;
+
+  height: 80vh;
+  overflow: auto;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.message .message-nick{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.message .message-text{
+  color: #4b4b4b;
+  font-size: 1rem;
+}
+
+.send-messages-wrapper {
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #f1f1f1;
+  border-radius: 5px;
+
+  margin-top: 20px;
+}
+
+.send-messages-input {
+  width: 100%;
+  height: 55px;
+  border: 2px solid #f1f1f1;
+  border-radius: 2px;
+  resize: none;
+  margin-bottom: 100px;
+}
+
+.send-messages-button {
+  height: 53px;
+  margin-top: 25px;
+}
